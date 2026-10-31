@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #26d853;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(10, 10, 10);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #e231c5;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #13f31f;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>tugas 1</h2>
+<p>membuat profil data diri.</p>
+
+<header>
+    <h2>foto</h2>
+<img src="c:\Users\KOMPUTER 3\Downloads\foto senjata.jpg" alt="Trulli" width="60" height="80">
+
+  <h2>sadamaziz</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+        <p>riwayat pendidikan</p>
+      <li><a href="#">sd.</a></li>
+      <li><a href="#">smp.</a></li>
+      <li><a href="#">sma.</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>pendidikan</h1>
+    <p>perkenalkan nama saya sadam saya akan menceritakan pengelaman pendidikan saya pertama sd dan ke 2 smp dan ke 3 sma.dan kini saya sedang menepuh pendidikan d3 menajemen informatika.</p>
+    <p>cita-cita.</p>
+    <p>saya tamat d3 ini akan mecoba mendaftar tes perwira tni ad dengan jurusan yang saya ambil di waktu kuliah</p>
+  </article>
+</section>
+
+<footer>
+  <p>pengelaman organisasi tidak ada</p>
+</footer>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>foto</h2>
+<img src="c:\Users\KOMPUTER 3\Downloads\granat.jpg" alt="Trulli" width="60" height="80">
+
+</body>
+</html>
+
+</body>
+</html>
